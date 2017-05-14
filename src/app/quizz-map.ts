@@ -1,8 +1,3 @@
-export class QuizzMap {
-    questions: Question[];   
-    images: Image[]; 
-}
-
 export class Question {
     id: number;
     question: string;

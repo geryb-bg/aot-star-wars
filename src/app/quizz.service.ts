@@ -2,16 +2,24 @@ import { Injectable } from '@angular/core';
 import { Http } from "@angular/http";
 import { Observable } from "rxjs/Observable";
 import 'rxjs/add/operator/map';
-import { QuizzMap } from "app/quizz-map";
+import { Question, Image } from "app/quizz-map";
 
 @Injectable()
 export class QuizzService {
 
   constructor(private http: Http) { }
 
-  getQuizz(): Observable<QuizzMap> {
+  getQuestions(): Observable<Question[]> {
       return this.http.get("assets/questions.json")
-          .map(response => <QuizzMap>response.json());
+          .map(response => <Question[]>response.json().questions);
+  }
+
+  getImage(id: number): Observable<Image> {
+    return this.http.get("assets/questions.json")
+          .map(response => {
+            let data = response.json();
+            return data.images.filter((item) => item.id === id)[0];
+          });
   }
 
 }

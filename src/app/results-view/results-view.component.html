@@ -1,3 +1,10 @@
-<p>
-  results-view works!
-</p>
+<h2 class="title">
+  {{image.name}}
+</h2>
+<br/>
+<div *ngIf="image.url" class="image">
+  <img [src]="'assets/' + image.url" />
+</div>
+<div class="back">
+  <a routerLink="/question">go back</a>
+</div>

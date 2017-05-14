@@ -1,0 +1,19 @@
+.title {
+    text-align: center;
+    font-size: 36px;
+    width: 1000px;
+    margin: auto;
+}
+
+.image {
+    text-align: center;
+}
+
+.image > img {
+    max-height: 450px;
+}
+
+.back {
+    width: 1000px;
+    margin: auto;
+}
