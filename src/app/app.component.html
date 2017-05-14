@@ -1,14 +1,1 @@
-<h1 class="question">
-  {{currentQuestion.question}}
-</h1>
-<div class="answers">
-  <a (click)="answerSelected('yes')">
-    <span *ngIf="!currentQuestion.yesAnswerValue">yes</span>
-    {{currentQuestion.yesAnswerValue}}
-  </a>
-  <a class="no-answer" (click)="answerSelected('no')">
-    <span *ngIf="!currentQuestion.noAnswerValue">no</span>
-    {{currentQuestion.noAnswerValue}}
-  </a>
-  <span style="clear: both"></span>
-</div>
+<router-outlet></router-outlet>
