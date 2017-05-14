@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'starwars';
+    src: url('assets/font/starjedi-webfont.eot');
+    src: url('assets/font/starjedi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/font/starjedi-webfont.woff') format('woff'),
+         url('assets/font/starjedi-webfont.ttf') format('truetype'),
+         url('assets/font/starjedi-webfont.svg#star_jediregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-image: url('assets/back.jpg');
+    background-color: black;
+    color: white;
+    font-family: 'starwars'
+}

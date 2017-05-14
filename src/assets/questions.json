@@ -2,69 +2,69 @@
     "questions": [
         {
             "id": 1,
-            "question": "Do you prefer brutal honesty or diplomatic truth?",
-            "yesAnswerValue": "Give it to me straight",
-            "noAnswerValue": "Diplomatic",
+            "question": "do you prefer brutal honesty or diplomatic truth?",
+            "yesAnswerValue": "give it to me straight",
+            "noAnswerValue": "diplomatic",
             "yesAnswerId": 2,
             "noAnswerId": 3
         },
         {
             "id": 2,
-            "question": "Can you handle yourself in a fist fight?",
+            "question": "can you handle yourself in a fist fight?",
             "yesAnswerId": 4,
             "noAnswerId": 5
         },
         {
             "id": 3,
-            "question": "Are you good at fixing things yourself?",
+            "question": "are you good at fixing things yourself?",
             "yesAnswerId": 6,
             "noAnswerId": 7
         },
         {
             "id": 4,
-            "question": "Do you fix all of your own car problems?",
+            "question": "do you fix all of your own car problems?",
             "noAnswerId": 8,
             "yesImageId": 10
         },
         {
             "id": 5,
-            "question": "Is silence golden?",
+            "question": "is silence golden?",
             "yesImageId": 11,
             "noImageId": 10
         },
         {
             "id": 6,
-            "question": "Does your smartphone constantly run out of battery?",
+            "question": "does your smartphone constantly run out of battery?",
             "yesImageId": 9,
             "noAnswerId": 9
         },
         {
             "id": 7,
-            "question": "Do you buy only name brand?",
+            "question": "do you buy only name brand?",
             "yesImageId": 8,
             "noImageId": 7
         },
         {
             "id": 8,
-            "question": "Do you need a friend?",
+            "question": "do you need a friend?",
             "yesImageId": 6,
             "noImageId": 5
         },
         {
             "id": 9,
-            "question": "Can you take care of your own injuries?",
+            "question": "can you take care of your own injuries?",
             "yesAnswerId": 10,
             "noImageId": 4
         },
         {
             "id": 10,
-            "question": "Are you bi-lingual?",
+            "question": "are you bi-lingual?",
             "yesAnswerId": 11,
             "noImageId": 3        
         },
         {
             "id": 11,
-            "question": "Do you have eyes everywhere?",
+            "question": "do you have eyes everywhere?",
             "yesImageId": 2,
             "noImageId": 1
         }
@@ -73,57 +73,57 @@
         {
             "id": 1,
             "url": "probe.png",
-            "name": "Imperial Probe Droid"
+            "name": "imperial probe droid"
         },
         {
             "id": 2,
             "url": "droids.jpg",
-            "name": "These Aren't the Droids You Are Looking For!!!"
+            "name": "these aren't the droids you are looking for!!!"
         },
         {
             "id": 3,
             "url": "3po.png",
-            "name": "C-3PO"
+            "name": "c-3po"
         },
         {
             "id": 4,
             "url": "21b.png",
-            "name": "2-1B"
+            "name": "2-1b"
         },
         {
             "id": 5,
             "url": "chopper.png",
-            "name": "C1-10P (Chopper)"
+            "name": "c1-10p (chopper)"
         },
         {
             "id": 6,
             "url": "r2.gif",
-            "name": "R2-D2"
+            "name": "r2-d2"
         },
         {
             "id": 7,
             "url": "r5.png",
-            "name": "R5-D4"
+            "name": "r5-d4"
         },
         {
             "id": 8,
             "url": "bb.gif",
-            "name": "BB-8"
+            "name": "bb-8"
         },
         {
             "id": 9,
             "url": "gnk.png",
-            "name": "GNK Power Droid (GONK)"
+            "name": "gnk power droid (gonk)"
         },
         {
             "id": 10,
             "url": "k2.png",
-            "name": "K-2SO"
+            "name": "k-2so"
         },
         {
             "id": 11,
             "url": "ig88.png",
-            "name": "IG-88"
+            "name": "ig-88"
         }
     ]
 }

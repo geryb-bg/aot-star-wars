@@ -1,0 +1,25 @@
+.question {
+    text-align: center;
+    font-size: 58px;
+    width: 1000px;
+    margin: auto;
+}
+
+.answers {
+    text-align: center;
+    font-size: 36px;
+    width: 1000px;
+    margin: auto;    
+}
+
+.answers > a {
+    width: 400px;
+    height: 125px;
+    float: left;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.no-answer {
+    margin-left: 100px;
+}
