@@ -5,7 +5,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output-path dist/prod/ --pro",  
+    "build": "ng build --output-path dist/prod/aot --prod",
+    "build-non": "ng build --output-path dist/prod/nonaot --prod --aot=false",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
